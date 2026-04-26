@@ -21,16 +21,25 @@ body{
 }
 #pills-all-tab.active, #pills-queued-tab.active, #pills-done-tab.active{
     background-color: #FCBF49;
+    transform: scale(0.8);
 }
 
 
 #add-btn{
-    background-color: #007193c5;
+    background-color: #D62828;
     height: 3rem;
     margin-left: 1rem;
     color: white;
 }
 #add-btn:hover{
-    background-color: #003b5b;
+    background-color: #931c1c;
+}
+
+/* addtask bar */
+#add-task-bar{
+    display: none;
+    z-index: 10;
+
+    box-shadow: 1rem 1rem 40px #fcc04971;
 }
 
