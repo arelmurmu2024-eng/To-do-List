@@ -1,1 +1,36 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin: 1rem;
+}
+
+#heading-holder{
+    display: flex;
+    justify-content: center;
+    width: fit-content;
+}
+#heading{
+    color: #003049;
+}
+
+#pills-all-tab, #pills-queued-tab, #pills-done-tab{
+    color: #D62828;
+    margin: 0.5rem;
+}
+#pills-all-tab.active, #pills-queued-tab.active, #pills-done-tab.active{
+    background-color: #FCBF49;
+}
+
+
+#add-btn{
+    background-color: #007193c5;
+    height: 3rem;
+    margin-left: 1rem;
+    color: white;
+}
+#add-btn:hover{
+    background-color: #003b5b;
+}
 
